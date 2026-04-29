@@ -2,7 +2,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es2017"
+    "target": "es2017",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
   },
   "ts-node": {
     "swc": true
